@@ -5,13 +5,13 @@ class Zoo
     @@all=[]
 
     def initialize(name, location)
-        @name = name
-				@location = location
-        @@all << self
+      @name = name
+			@location = location
+      @@all << self
     end
 
     def self.all
-        @@all
+      @@all
     end
 
     def animals
